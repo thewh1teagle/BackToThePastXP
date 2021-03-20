@@ -2,7 +2,7 @@ html,
 body {
     height: 100%;
     margin: 0;
-    background-image: url("xp.jpg");
+    background-image: url("../images/xp.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
     overflow: hidden;
@@ -35,7 +35,7 @@ body {
 }
 
 #programs {
-    background-image: url("programs.png");
+    background-image: url("../images/programs.png");
     position: absolute;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -70,7 +70,7 @@ body {
 }
 
 #context-menu {
-    background-image: url("context.png");
+    background-image: url("../images/context.png");
     background-size: contain;
     background-repeat: no-repeat;
     position: fixed;
@@ -86,7 +86,7 @@ body {
 .cmd-window {
     position: absolute;
     display: inline;
-    background-image: url("cmd.png");
+    background-image: url("../images/cmd.png");
     width: 700px;
     height: 350px;
     background-repeat: no-repeat;
@@ -116,7 +116,7 @@ body {
 
 #startup-img {
     position: fixed;
-    background-image: url("startup.jpg");
+    background-image: url("../images/startup.jpg");
     background-size: 100% 100%;
     top: 0;
     left: 0;
@@ -133,7 +133,7 @@ body {
     body {
         height: 100%;
         margin: 0;
-        background-image: url("xp.jpg");
+        background-image: url("../images/xp.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
         overflow: hidden;
@@ -161,7 +161,7 @@ body {
         cursor: move;
     }
     #programs {
-        background-image: url("programs.png");
+        background-image: url("../images/programs.png");
         position: absolute;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -194,7 +194,7 @@ body {
     .cmd-window {
         position: absolute;
         display: inline;
-        background-image: url("cmd.png");
+        background-image: url("../images/cmd.png");
         width: 70%;
         height: 20%;
         background-repeat: no-repeat;
