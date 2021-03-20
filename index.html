@@ -17,14 +17,19 @@
         <source src="startup.mp3" type="audio/mpeg">
     </audio>
 
-    <div class="cmd" onclick="openCmd()"></div>
+
 
     <div class="cmd-window" style="display: none;">
         <div class="window-bar" id="cmd-window-bar"></div>
         <div id="close-cmd" onclick="closeCmd()"></div>
     </div>
 
-    <img src="programs.png" id="programs">
+
+    <div id="programs" style="display: none;">
+    </div>
+
+    <div class="cmd" onclick="openCmd()"></div>
+
     <img src="start.jpg" id="start-btn" alt="" onclick="start_btn_click()">
     <div class="bottom-line"></div>
 

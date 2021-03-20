@@ -6,6 +6,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100% auto;
     overflow: hidden;
+    resize: none;
 }
 
 #start-btn {
@@ -13,6 +14,8 @@ body {
     position: absolute;
     left: 0;
     bottom: 0;
+    width: 6.3%;
+    height: 4%;
 }
 
 #start-btn:hover {
@@ -24,57 +27,42 @@ body {
     bottom: 0;
     right: 0;
     width: 93.9%;
-    height: 27px;
+    height: 4%;
     /* border-top-left-radius: 10px; */
     background-color: #2596be;
 }
 
 #programs {
-    display: none;
+    background-image: url("programs.png");
     position: absolute;
-    bottom: 3%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 72%;
+    width: 28%;
+    display: inline;
+    bottom: 4.25%;
     left: 0;
     /* crop image */
-    margin-left: -20px;
+    border: 10px;
 }
+
+
+/* 
+#programs img {
+    height: 80%;
+    width: 20%;
+} */
 
 * {
     z-index: 1;
 }
 
-#myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: 2;
-}
-
-#video-bg {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: 2;
-}
-
-#video-bg>video {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 .cmd {
     position: absolute;
     left: 0;
-    bottom: 48%;
-    width: 220px;
-    height: 50px;
+    bottom: 45.3%;
+    width: 13%;
+    height: 6%;
     /* outline: 1px solid red; */
     z-index: 3;
 }
