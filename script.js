@@ -7,7 +7,34 @@ function openCmd() {
 }
 
 
+function rightClick(e) {
+    console.log("right click")
+    e.preventDefault();
+
+    if (document.getElementById("context-menu")
+        .style.display == "block")
+        hideMenu();
+    else {
+        var menu = document.getElementById("context-menu")
+
+        menu.style.display = 'block';
+        menu.style.left = e.pageX + "px";
+        menu.style.top = e.pageY + "px";
+    }
+}
+
+
+function hideMenu() {
+    document.getElementById("context-menu")
+        .style.display = "none"
+}
+
 (function() {
+    document.oncontextmenu = rightClick;
+    document.onclick = hideMenu;
+
+
+
 
     document.body.style.cursor = "progress"
 

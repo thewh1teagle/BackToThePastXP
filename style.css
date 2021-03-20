@@ -69,6 +69,16 @@ body {
     z-index: 7;
 }
 
+#context-menu {
+    background-image: url("context.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 8.5%;
+    height: 17.5%;
+    outline: 1px solid red;
+}
+
 .cmd:hover {
     cursor: pointer;
 }
