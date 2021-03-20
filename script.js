@@ -10,8 +10,16 @@ function openCmd() {
 (function() {
 
     document.body.style.cursor = "progress"
-    var audio = document.getElementById('my_audio')
-    audio.play()
+
+    try {
+        audio.play()
+        var audio = document.getElementById('my_audio')
+    } catch (e) {
+        setTimeout(function() {
+            startupFinish()
+        }, 2000)
+    }
+
 
 })()
 
