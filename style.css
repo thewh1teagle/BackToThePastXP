@@ -7,6 +7,7 @@ body {
     background-size: 100% auto;
     overflow: hidden;
     resize: none;
+    padding: 0;
 }
 
 #start-btn {
@@ -65,7 +66,7 @@ body {
     width: 13%;
     height: 6%;
     /* outline: 1px solid red; */
-    z-index: 3;
+    z-index: 7;
 }
 
 .cmd:hover {
@@ -80,6 +81,7 @@ body {
     height: 350px;
     background-repeat: no-repeat;
     /* outline: 1px solid red; */
+    z-index: 8;
 }
 
 .window-bar {
@@ -160,6 +162,7 @@ body {
         left: 0;
         /* crop image */
         border: 10px;
+        /* z-index: 4; */
     }
     /* 
     #programs img {
@@ -188,4 +191,21 @@ body {
         background-size: cover;
         /* outline: 1px solid red; */
     }
+}
+
+#canvas-mouse-hold {
+    top: 0;
+    display: block;
+    position: fixed;
+    height: 96%;
+    width: 100%;
+    /* outline: 3px solid red; */
+    z-index: 6;
+}
+
+.rect {
+    position: absolute;
+    /* border: 2px solid rgba(199, 25, 9, 0.64); */
+    background-color: #2596be;
+    opacity: 0.5;
 }
