@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back to the past</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="video-bg">
+        <video autoplay onended="videoFinish()">
+            <source src="startup.mp4" type="video/mp4">
+            Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+    </div>
+
+    <div class="cmd" onclick="openCmd()"></div>
+
+    <div class="cmd-window" style="display: none;">
+        <div class="window-bar" id="cmd-window-bar"></div>
+        <div id="close-cmd" onclick="closeCmd()"></div>
+    </div>
+
+    <img src="programs.png" id="programs">
+    <img src="start.jpg" id="start-btn" alt="" onclick="start_btn_click()">
+    <div class="bottom-line"></div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
