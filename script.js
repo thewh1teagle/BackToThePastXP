@@ -34,7 +34,7 @@ const start_btn_click = function() {
     console.log("click")
     el = document.getElementById("programs")
     display = el.style.display
-    display === "none" ? el.style.display = "block" : el.style.display = "none"
+    display !== "block" ? el.style.display = "block" : el.style.display = "none"
 }
 
 
@@ -88,3 +88,11 @@ function dragElement(elmnt) {
         document.onmousemove = null;
     }
 }
+
+
+document.getElementById("start-btn").addEventListener("mousedown", function(e) {
+    document.getElementById("start-btn").style.width = "6.3%"
+    setTimeout(function() {
+        document.getElementById("start-btn").style.width = "6%"
+    }, 300)
+})
