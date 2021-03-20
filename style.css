@@ -29,7 +29,7 @@ body {
     width: 93.9%;
     height: 4%;
     /* border-top-left-radius: 10px; */
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     background-color: #2596be;
 }
 
@@ -134,7 +134,7 @@ body {
         bottom: 0;
         width: 18%;
         height: 4%;
-        outline: 2x solid red;
+        /* outline: 2x solid red; */
     }
     .bottom-line {
         position: absolute;
@@ -175,7 +175,7 @@ body {
         bottom: 33.3%;
         width: 30%;
         height: 4%;
-        outline: 1px solid red;
+        /* outline: 1px solid red; */
         z-index: 3;
     }
     .cmd-window {
