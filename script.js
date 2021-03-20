@@ -6,11 +6,19 @@ function openCmd() {
     document.getElementsByClassName("cmd-window")[0].style.display = "block"
 }
 
-document.body.style.cursor = "progress"
 
-function videoFinish() {
-    document.getElementById("video-bg").style.display = "none"
+(function() {
+
+    document.body.style.cursor = "progress"
+    var audio = document.getElementById('my_audio')
+    audio.play()
+
+})()
+
+function startupFinish() {
+    // document.getElementById("video-bg").style.display = "none"
     document.body.style.cursor = ""
+    document.getElementById("startup-img").style.display = "none"
 }
 
 
