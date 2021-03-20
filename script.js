@@ -90,9 +90,9 @@ function dragElement(elmnt) {
 }
 
 
-document.getElementById("start-btn").addEventListener("mousedown", function(e) {
-    document.getElementById("start-btn").style.width = "6.4%"
-    setTimeout(function() {
-        document.getElementById("start-btn").style.width = "6.3%"
-    }, 300)
-})
+// document.getElementById("start-btn").addEventListener("mousedown", function(e) {
+//     document.getElementById("start-btn").style.width = "6.4%"
+//     setTimeout(function() {
+//         document.getElementById("start-btn").style.width = "6.3%"
+//     }, 300)
+// })
